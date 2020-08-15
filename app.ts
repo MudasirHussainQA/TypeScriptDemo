@@ -14,6 +14,7 @@ const person:{
 };
 person.role.push('admin');
 person.role.push('QA');
+person.role.push('BA');
 var value=person.role.lastIndexOf('admin');
 console.log("Value is",value);
 
