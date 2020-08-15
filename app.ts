@@ -13,6 +13,7 @@ const person:{
   role: [1,'Automation Engineer']
 };
 person.role.push('admin');
+person.role.push('QA');
 var value=person.role.lastIndexOf('admin');
 console.log("Value is",value);
 
